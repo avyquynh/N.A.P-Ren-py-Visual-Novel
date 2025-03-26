@@ -1,0 +1,10 @@
+define inv = Character("Inventory", color="#000000")
+define user = Character("?", color="#000000")
+define yn = Character("[name]", color="#000000")
+
+define maria = Character("Maria", color="#28633a")
+define zi = Character("Zichen", color="#4d9993")
+define sai = Character("Sai", color="#921b5c")
+define aled = Character("Aled", color="#818176")
+define xela = Character("Xela", color="#a80e23")
+define andres = Character("Andres", color="#7943a5")

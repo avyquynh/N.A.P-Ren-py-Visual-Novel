@@ -1,0 +1,12 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+The label explore_2 is defined twice, at File "game/story/day2.rpy", line 80:
+    menu explore_2:
+and File "game/story/day2.rpy", line 249:
+    menu explore_2:
+
+
+Ren'Py Version: Ren'Py 8.3.2.24090902
+Thu Nov  7 06:11:55 2024

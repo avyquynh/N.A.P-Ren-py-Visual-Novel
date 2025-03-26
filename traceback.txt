@@ -1,0 +1,38 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/script.rpy", line 13, in execute_default
+    default showPhoto1 = false
+  File "game/script.rpy", line 13, in <module>
+    default showPhoto1 = false
+NameError: name 'false' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\Avy Q. Chung\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 821, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Avy Q. Chung\Downloads\renpy-8.3.2-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\Avy Q. Chung\Downloads\renpy-8.3.2-sdk\renpy\exports\statementexports.py", line 372, in execute_default_statement
+    i.execute_default(start)
+  File "game/script.rpy", line 13, in execute_default
+    default showPhoto1 = false
+  File "C:\Users\Avy Q. Chung\Downloads\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 13, in <module>
+    default showPhoto1 = false
+NameError: name 'false' is not defined
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.3.2.24090902
+The Camp 
+Thu Nov  7 04:57:58 2024
